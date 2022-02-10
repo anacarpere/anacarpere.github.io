@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-box {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    align-items: center;
+
+    
+}
+.flex-item {
+    width: 300px;
+    height: 200px;
+    border: solid 4px red;
+    /*box-shadow: -4px 8px 0px red;*/
+    margin: 0 10px 0 10px;
+    box-shadow: -1px 1px 0px red,
+                -2px 2px 0px red,
+                -3px 3px 0px red,
+                -4px 4px 0px red,
+                -5px 5px 0px red,
+                -6px 6px 0px red,
+                -7px 7px 0px red,
+                -8px 8px 0px red,
+                -9px 9px 0px red;
+
+}
