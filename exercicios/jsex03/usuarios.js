@@ -9,9 +9,9 @@ let quantUsuarios = parseInt(prompt('Quantos usuários você quer cadastrar?'))
 let dados = []
 
 for (let i = 0; i < quantUsuarios; i++) {
-    cadastro.nome = prompt('Qual o seu nome?')
-    cadastro.sobrenome = prompt('Qual o seu sobrenome?')
-    cadastro.idade = parseInt(prompt('Qual a sua idade?'))
+    cadastro.nome = prompt('Qual o nome do usuário?')
+    cadastro.sobrenome = prompt('Qual o sobrenome do usuário?')
+    cadastro.idade = parseInt(prompt('Qual a idade do usuário?'))
     dados.push(cadastro) 
 
 
