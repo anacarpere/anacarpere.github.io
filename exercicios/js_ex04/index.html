@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lampada</title>
+    <style>
+        body{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;     
+            
+      }
+      #lampada{
+          width: 500px;
+          min-height: 500px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          cursor:pointer;
+          background: white;
+      }
+      img{
+          width: 338px;
+          height: 450px;
+      }
+  </style>
+</head>
+<body>
+    <div id="lampada">
+        <img id="imagem-lampada" class="off" src="images/lampada-apagada.png" >
+    </div>
+    <button>
+        acender
+    </button>
+    
+    <script src="lampada.js"></script>
+</body>
+</html>
